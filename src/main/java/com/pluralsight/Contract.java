@@ -47,7 +47,7 @@ public class Contract {
         CustomerName = customerName;
     }
 
-    public abstract getTotalPrice() {
+    public double getTotalPrice() {
         return TotalPrice;
     }
 
@@ -61,5 +61,11 @@ public class Contract {
 
     public void setMonthlyPayments(double monthlyPayments) {
         MonthlyPayments = monthlyPayments;
+    }
+
+    public String getDate() {
+    }
+
+    public Vehicle getVehicle() {
     }
 }
